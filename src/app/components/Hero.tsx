@@ -16,21 +16,21 @@ export default function Hero() {
           <source src="/videos/hero-bg.mp4" type="video/mp4" />
         </video>
         {/* Text Overlay */}
-        <div className="relative z-10 w-full flex flex-col items-center justify-center text-center px-4">
-          <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-semibold drop-shadow-lg mb-4 tracking-tight">
+        <div className="relative z-10 w-full flex flex-col items-center justify-center text-center px-2 sm:px-4">
+          <h1 className="text-white text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-semibold drop-shadow-lg mb-3 sm:mb-4 tracking-tight max-w-xs xs:max-w-md sm:max-w-2xl mx-auto">
             Psychological Care for
             <br />
             Change, Insight, and Well-Being
           </h1>
-          <p className="text-white text-base sm:text-lg md:text-xl font-normal drop-shadow mb-6 max-w-2xl mx-auto">
-            Offering individual psychotherapy for adults via telehealth in Michigan and most U.S. states through <span className="underline">PSYPACT participation</span>
+          <p className="text-white text-sm xs:text-base sm:text-lg md:text-xl font-normal drop-shadow mb-4 sm:mb-6 max-w-xs xs:max-w-md sm:max-w-2xl mx-auto">
+            Compassionate therapy for anxiety, relationships, and trauma—serving Los Angeles in-person & via Zoom
           </p>
           <a
             href="#contact"
-            className="inline-block bg-[#b7cfc9] hover:bg-[#a0bdb3] text-white font-semibold rounded-full px-8 py-3 text-sm tracking-wider uppercase shadow transition-colors duration-200"
+            className="inline-block bg-[#b7cfc9] hover:bg-[#a0bdb3] text-white font-semibold rounded-full px-6 py-2 sm:px-8 sm:py-3 text-xs sm:text-sm tracking-wider uppercase shadow transition-colors duration-200"
             style={{ letterSpacing: '0.05em' }}
           >
-            Schedule a Consultation
+            Book a Free Consult
           </a>
         </div>
         {/* Subtle dark overlay for contrast */}
