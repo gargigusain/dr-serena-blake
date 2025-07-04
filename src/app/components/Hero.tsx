@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section className="w-full bg-[#f7f5ef] py-12 sm:py-20 px-4">
-      <div className="relative max-w-5xl mx-auto overflow-hidden aspect-[3/1] flex items-center justify-center">
+    <section className="w-full bg-[#f7f5ef] py-8 sm:py-16 px-0">
+      <div className="relative w-full max-w-5xl mx-auto overflow-hidden aspect-[4/3] sm:aspect-[3/1] flex items-center justify-center">
         {/* Video */}
         <video
           autoPlay
@@ -17,12 +17,12 @@ export default function Hero() {
         </video>
         {/* Text Overlay */}
         <div className="relative z-10 w-full flex flex-col items-center justify-center text-center px-2 sm:px-4">
-          <h1 className="text-white text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-semibold drop-shadow-lg mb-3 sm:mb-4 tracking-tight max-w-xs xs:max-w-md sm:max-w-2xl mx-auto">
+          <h1 className="text-white text-2xl sm:text-4xl md:text-5xl font-semibold drop-shadow-lg mb-3 sm:mb-4 tracking-tight max-w-xs sm:max-w-2xl mx-auto">
             Psychological Care for
             <br />
             Change, Insight, and Well-Being
           </h1>
-          <p className="text-white text-sm xs:text-base sm:text-lg md:text-xl font-normal drop-shadow mb-4 sm:mb-6 max-w-xs xs:max-w-md sm:max-w-2xl mx-auto">
+          <p className="text-white text-sm sm:text-lg md:text-xl font-normal drop-shadow mb-4 sm:mb-6 max-w-xs sm:max-w-2xl mx-auto">
             Compassionate therapy for anxiety, relationships, and trauma—serving Los Angeles in-person & via Zoom
           </p>
           <a
