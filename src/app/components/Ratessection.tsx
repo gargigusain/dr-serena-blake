@@ -10,7 +10,7 @@ export default function RatesSection() {
           I accept both private pay and insurance. I am in-network with BCBS and Aetna.
         </p>
         <p className="text-gray-900 text-xs">
-          For out-of-network plans, I've partnered with Mentaya using this tool to help you check your eligibility for reimbursement for my services.
+          For out-of-network plans, I&apos;ve partnered with Mentaya using this tool to help you check your eligibility for reimbursement for my services.
         </p>
       </div>
     </section>

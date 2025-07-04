@@ -13,11 +13,11 @@ const initialState = {
 
 export default function Contact() {
   const [form, setForm] = useState(initialState);
-  const [errors, setErrors] = useState<any>({});
+  const [errors, setErrors] = useState<Record<string, string>>({});
   const [submitted, setSubmitted] = useState(false);
 
-  const validate = () => {
-    const newErrors: any = {};
+  const validate = (): Record<string, string> => {
+    const newErrors: Record<string, string> = {};
     if (!form.name.trim()) newErrors.name = "Name is required.";
     if (!form.phone.trim()) newErrors.phone = "Phone is required.";
     if (!form.email.trim()) newErrors.email = "Email is required.";
